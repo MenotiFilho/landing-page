@@ -182,9 +182,6 @@ ul {
   overflow: hidden;
   display: flex;
 }
-display: flex;
-flex-direction: column;
-align-content: center;
 
 .info-1,
 .info-2,
