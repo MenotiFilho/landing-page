@@ -1,0 +1,142 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #1f2937;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px;
+}
+
+.one {
+  background-color: white;
+  padding: 150px;
+}
+
+.two {
+  background-color: #e5e7eb;
+  padding: 150px;
+}
+
+.three {
+  background-color: white;
+  padding: 150px;
+}
+
+.footer {
+  background-color: #1f2937;
+  padding: 30px;
+}
+
+li {
+  list-style: none;
+  font-size: 18px;
+}
+
+.link-header {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.link-header:hover {
+  color: #f9faf8;
+}
+
+.link-header:active {
+  position: relative;
+  top: 1px;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  gap: 30px;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.content-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 360px;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 450px;
+  gap: 15px;
+}
+.hero-title {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+  margin: 0px;
+  padding: 0px;
+}
+
+.hero-text {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.hero-image {
+  background-color: whitesmoke;
+  display: flex;
+  height: 225px;
+  width: 450px;
+  align-items: center;
+  justify-content: center;
+}
+
+.button.text {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.hero-button {
+  box-shadow: 0px 0px 0px 2px #3881f6;
+  background-color: #3881f6;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 18px;
+  padding: 3px 25px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #283966;
+  align-self: flex-start;
+}
+
+.hero-button:hover {
+  background-color: #357ae3;
+}
+
+.hero-button:active {
+  position: relative;
+  top: 1px;
+}
